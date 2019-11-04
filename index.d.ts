@@ -1,14 +1,12 @@
 /**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
+ * The IANA-formatted timezone.
  * @example
  * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
+ * const timeZone = require("timez");
+ * timeZone
+ * //=> "America/Chicago"
  * ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare const timeZone: string;
 
-export = theModule;
+export = timeZone;

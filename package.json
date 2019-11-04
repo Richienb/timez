@@ -1,8 +1,8 @@
 {
-    "name": "the-module",
+    "name": "timez",
     "version": "0.0.0",
-    "description": "My awesome module.",
-    "repository": "https://github.com/Richienb/the-module.git",
+    "description": "Get the local time zone in IANA format (eg. 'America/Chicago').",
+    "repository": "https://github.com/Richienb/timez.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
     "license": "MIT",
     "main": "index.js",
@@ -11,7 +11,7 @@
         "index.d.ts"
     ],
     "engines": {
-        "node": ">=8"
+        "node": ">=0.12"
     },
     "scripts": {
         "lint": "eslint .",
@@ -22,9 +22,20 @@
     "devDependencies": {
         "ava": "^2.1.0",
         "eslint": "^6.6.0",
-        "eslint-config-richienb": "^0.2.2"
+        "eslint-config-richienb": "^0.2.2",
+        "inside-string": "^1.0.0"
     },
     "eslintConfig": {
-        "extends": "richienb/node"
+        "extends": "richienb/node",
+        "rules": {
+            "new-cap": [
+                "error",
+                {
+                    "capIsNewExceptions": [
+                        "DateTimeFormat"
+                    ]
+                }
+            ]
+        }
     }
 }

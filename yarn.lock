@@ -1810,6 +1810,11 @@ inquirer@^7.0.0:
     strip-ansi "^5.1.0"
     through "^2.3.6"
 
+inside-string@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/inside-string/-/inside-string-1.0.0.tgz#fb7a3b2d4f89c4225a6915c7f9a9ff3314b39f79"
+  integrity sha512-TIGxDRCv8MLZhhWwaUvV/lR6IiXZ+oSd2FxHSTjRhmhsOyoZIanCMn2aRokKGXx/PFq8SisNDQZYXYUskpL++Q==
+
 irregular-plurals@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/irregular-plurals/-/irregular-plurals-2.0.0.tgz#39d40f05b00f656d0b7fa471230dd3b714af2872"
