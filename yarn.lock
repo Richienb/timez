@@ -1811,9 +1811,9 @@ inquirer@^7.0.0:
     through "^2.3.6"
 
 inside-string@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/inside-string/-/inside-string-1.0.0.tgz#fb7a3b2d4f89c4225a6915c7f9a9ff3314b39f79"
-  integrity sha512-TIGxDRCv8MLZhhWwaUvV/lR6IiXZ+oSd2FxHSTjRhmhsOyoZIanCMn2aRokKGXx/PFq8SisNDQZYXYUskpL++Q==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/inside-string/-/inside-string-1.0.1.tgz#e9203b18b60fbbbee6767244cdbbb808b75fbffc"
+  integrity sha512-VLzdBOPGyUTySSEtwtdNr0qJ3d+dMyjKf9iuisFm91i10t1DNxFaClLANEk/CYUV6pkLmwEZJZCDkRTcHWmKjQ==
 
 irregular-plurals@^2.0.0:
   version "2.0.0"
